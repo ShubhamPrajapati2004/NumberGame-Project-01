@@ -1,7 +1,10 @@
 import java.util.Scanner;
-public class NumberGame {
-    public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
+public class NumberGame 
+{
+    public static void main(String[] args) 
+    {
+        try (Scanner sc = new Scanner(System.in)) 
+        {
             int chances=8;
             int finals=0;
             boolean playAgain=true;
@@ -41,7 +44,8 @@ public class NumberGame {
                 System.out.println("That's It Buddy, I Hope you Enjoyed it");
                 System.out.println("Here is your Score: "+finals +" Thankyou");}
         }}
-            public static int getrandN(int min,int max){
+            public static int getrandN(int min,int max)
+    {
                 return (int)(Math.random()*(max-min+1)+min);
                 
             }
